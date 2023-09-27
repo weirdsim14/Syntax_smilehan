@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sangcheolsim/Practice/CPP/Syntax_smilehan/build/src",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/fn.dir/fn.cpp.o -c /Users/sangcheolsim/Practice/CPP/Syntax_smilehan/src/fn.cpp",
+  "file": "/Users/sangcheolsim/Practice/CPP/Syntax_smilehan/src/fn.cpp",
+  "output": "src/CMakeFiles/fn.dir/fn.cpp.o"
+}
+]
