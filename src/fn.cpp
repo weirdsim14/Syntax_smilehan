@@ -2,42 +2,17 @@
 using std::cout;
 using std::endl;
 
-class Dog {
-    private:
-        int age;
-    public:
-        int getAge();
-        void setAge(int a);
-};
-
-int Dog::getAge(){
-    return age;
-}
-void Dog::setAge(int a){
-    age = a;
-}
-int main()
-{
-    Dog *dp;
-    dp = new Dog[10];
-    if(!dp){
-        std::cout << "Memory allocation is impossible";
-        return 1;
-    }
-    for(int i=0; i<10; i++)
-    {
-        dp[i].setAge(i);
-    } 
-    for(int i=0; i<10; i++) 
-    {
-            std::cout << i << "th age of object is" <<
-            dp[i].getAge() << " ." << std::endl;
+int add(int i, int j){
+        return (i + j);
     }
 
-    delete[] dp;
+    double add(double i, double j){
+        return (i + j);
+    }
+
+int main (){
+    std::cout << add(10, 20) <<std::endl;
+    std::cout << add(10.25, 22.25) << std::endl;
+    
     return 0;
-
 }
-
-
-
