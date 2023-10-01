@@ -1,3 +1,9 @@
+Operator overloading allows operators to have user-defined meanings on user-defined types (classes and structs). This feature enables you to work with user-defined types in a manner similar to built-in types. Below are the key points regarding operator overloading in C++:
+
+    Definition:
+        Operator overloading is a compile-time polymorphism in which the operator is overloaded to provide the special meaning to the user-defined data type.
+        Operator overloading is used to overload or redefines most of the operators available in C++.
+
 Syntax:
 
 cpp
