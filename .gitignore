@@ -1,4 +1,5 @@
 /.vscode
-build
-build/Makefile
-build/compile_commands.json
+/build/src
+/build/CMakeFiles
+/build/Makefile
+/build/compile_commands.json
