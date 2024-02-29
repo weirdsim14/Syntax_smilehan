@@ -1,8 +1,20 @@
 [
 {
-  "directory": "/Users/sangcheolsim/Practice/CPP/Syntax_smilehan/build/src",
-  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/fn.dir/fn.cpp.o -c /Users/sangcheolsim/Practice/CPP/Syntax_smilehan/src/fn.cpp",
-  "file": "/Users/sangcheolsim/Practice/CPP/Syntax_smilehan/src/fn.cpp",
+  "directory": "/home/sim/Prac/cpp/Syntax_smilehan/build",
+  "command": "/usr/bin/g++ -g -o src/CMakeFiles/fn.dir/fn.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/fn.cpp",
+  "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/fn.cpp",
   "output": "src/CMakeFiles/fn.dir/fn.cpp.o"
+},
+{
+  "directory": "/home/sim/Prac/cpp/Syntax_smilehan/build",
+  "command": "/usr/bin/g++ -g -o src/CMakeFiles/cst_ov.dir/constructor_overloading.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/constructor_overloading.cpp",
+  "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/constructor_overloading.cpp",
+  "output": "src/CMakeFiles/cst_ov.dir/constructor_overloading.cpp.o"
+},
+{
+  "directory": "/home/sim/Prac/cpp/Syntax_smilehan/build",
+  "command": "/usr/bin/g++ -g -o src/CMakeFiles/fn_ov.dir/fn_overloading.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/fn_overloading.cpp",
+  "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/fn_overloading.cpp",
+  "output": "src/CMakeFiles/fn_ov.dir/fn_overloading.cpp.o"
 }
 ]
