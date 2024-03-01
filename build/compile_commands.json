@@ -16,5 +16,17 @@
   "command": "/usr/bin/g++ -g -o src/CMakeFiles/fn_ov.dir/fn_overloading.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/fn_overloading.cpp",
   "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/fn_overloading.cpp",
   "output": "src/CMakeFiles/fn_ov.dir/fn_overloading.cpp.o"
+},
+{
+  "directory": "/home/sim/Prac/cpp/Syntax_smilehan/build",
+  "command": "/usr/bin/g++ -g -o src/CMakeFiles/chrono.dir/chrono.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/chrono.cpp",
+  "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/chrono.cpp",
+  "output": "src/CMakeFiles/chrono.dir/chrono.cpp.o"
+},
+{
+  "directory": "/home/sim/Prac/cpp/Syntax_smilehan/build",
+  "command": "/usr/bin/g++ -g -o src/CMakeFiles/prac_string.dir/prac_string.cpp.o -c /home/sim/Prac/cpp/Syntax_smilehan/src/prac_string.cpp",
+  "file": "/home/sim/Prac/cpp/Syntax_smilehan/src/prac_string.cpp",
+  "output": "src/CMakeFiles/prac_string.dir/prac_string.cpp.o"
 }
 ]

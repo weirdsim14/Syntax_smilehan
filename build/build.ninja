@@ -161,6 +161,68 @@ build src/fn_ov: CXX_EXECUTABLE_LINKER__fn_ov_Debug src/CMakeFiles/fn_ov.dir/fn_
   TARGET_FILE = src/fn_ov
   TARGET_PDB = fn_ov.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chrono
+
+
+#############################################
+# Order-only phony target for chrono
+
+build cmake_object_order_depends_target_chrono: phony || src/CMakeFiles/chrono.dir
+
+build src/CMakeFiles/chrono.dir/chrono.cpp.o: CXX_COMPILER__chrono_unscanned_Debug /home/sim/Prac/cpp/Syntax_smilehan/src/chrono.cpp || cmake_object_order_depends_target_chrono
+  DEP_FILE = src/CMakeFiles/chrono.dir/chrono.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/chrono.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/chrono.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chrono
+
+
+#############################################
+# Link the executable src/chrono
+
+build src/chrono: CXX_EXECUTABLE_LINKER__chrono_Debug src/CMakeFiles/chrono.dir/chrono.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/chrono.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/chrono
+  TARGET_PDB = chrono.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prac_string
+
+
+#############################################
+# Order-only phony target for prac_string
+
+build cmake_object_order_depends_target_prac_string: phony || src/CMakeFiles/prac_string.dir
+
+build src/CMakeFiles/prac_string.dir/prac_string.cpp.o: CXX_COMPILER__prac_string_unscanned_Debug /home/sim/Prac/cpp/Syntax_smilehan/src/prac_string.cpp || cmake_object_order_depends_target_prac_string
+  DEP_FILE = src/CMakeFiles/prac_string.dir/prac_string.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/prac_string.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/prac_string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prac_string
+
+
+#############################################
+# Link the executable src/prac_string
+
+build src/prac_string: CXX_EXECUTABLE_LINKER__prac_string_Debug src/CMakeFiles/prac_string.dir/prac_string.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/prac_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/prac_string
+  TARGET_PDB = prac_string.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -187,11 +249,15 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build chrono: phony src/chrono
+
 build cst_ov: phony src/cst_ov
 
 build fn: phony src/fn
 
 build fn_ov: phony src/fn_ov
+
+build prac_string: phony src/prac_string
 
 # =============================================================================
 # Folder targets.
@@ -208,7 +274,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/sim/Prac/cpp/Syntax_smilehan/build/src
 
-build src/all: phony src/fn src/cst_ov src/fn_ov
+build src/all: phony src/fn src/cst_ov src/fn_ov src/chrono src/prac_string
 
 # =============================================================================
 # Built-in targets

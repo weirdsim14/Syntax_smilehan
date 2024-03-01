@@ -3,5 +3,7 @@
 /home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/fn.dir
 /home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/cst_ov.dir
 /home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/fn_ov.dir
+/home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/chrono.dir
+/home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/prac_string.dir
 /home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/edit_cache.dir
 /home/sim/Prac/cpp/Syntax_smilehan/build/src/CMakeFiles/rebuild_cache.dir
